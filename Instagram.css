@@ -1,5 +1,5 @@
 * {
-    border: 1px rgb(69,69,69);
+    border: 1px;
     margin: 4px;
 }
 
@@ -30,7 +30,6 @@ p {
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-
 }
 
 .opcoes{
@@ -75,7 +74,6 @@ p {
     display: flex;
     flex-direction: row;
     flex-grow: 100;
-
 }
 
 .a1{
@@ -122,6 +120,10 @@ p {
     flex-direction: row;
     opacity: 50%;
     background-color: rgb(247,247,247);
+    width: 200px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
 }
 
 p.publicar{
