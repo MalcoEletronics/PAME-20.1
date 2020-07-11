@@ -1,0 +1,129 @@
+* {
+    border: 1px rgb(69,69,69);
+    margin: 4px;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(69,69,69);
+    size: 14px;
+}
+
+.pagina{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247,247,247);
+}
+
+.a0{
+    display: flex;
+    flex-direction: row;
+}
+
+.logotipo{
+    width: 103px;
+    height: 29px;
+}
+
+.superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda{
+    display: flex;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.imagem{
+    display: flex;
+    height: 600px;
+    width: 600px;
+}
+
+.postador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coment{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 100;
+
+}
+
+.a1{
+    display: flex;
+    flex-direction: row;
+}
+
+.react{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botao{
+    height: 24px;
+    width: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mais{
+    width: 16px;
+    height: 16px;
+    opacity: 60%;
+}
+
+.insta{
+    height: 40px;
+    margin-left: 10px;
+}
+
+.foto{
+    height: 30px;
+}
+
+.pesquisar{
+    display: flex;
+    flex-direction: row;
+    opacity: 50%;
+    background-color: rgb(247,247,247);
+}
+
+p.publicar{
+    color: rgb(200,225,242);
+}
